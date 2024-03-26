@@ -139,27 +139,26 @@ textarea {
 }
 
 a {
-  color: #ca3c08;
+  color:#E3056C;
   text-decoration: none;
 }
 
 a:visited {
-  color: #ac0404;
+  color: #9c5986;
 }
 
 a:focus {
   outline: thin dotted;
 }
 
-a:active,
-a:hover {
-  color: #ea9629;
-  outline: 0;
-}
 
 a:hover {
-  text-decoration: underline;
+  color:#E3056C;
 }
+
+/* a:hover {
+ 
+} */
 
 address {
   font-style: italic;
@@ -3994,11 +3993,11 @@ Copyright (c) 2015 Daniel Eden
     Background Color 
 =================================*/
 .bg_color--1 {
-  background: #fff;
+  /* background: #fff; */
 }
 
 .bg_color--2 {
-  background: #ff5151;
+  /* background: #ff5151; */
 }
 
 /*===========================
@@ -4008,9 +4007,9 @@ Copyright (c) 2015 Daniel Eden
   /* background-image: url(../images/bg/bg-image-1.jpg); */
 }
 
-.bg_image--2 {
-  background-image: url(../images/bg/bg-image-2.jpg);
-}
+/* .bg_image--2 {
+  background-image:   linear-gradient( rgb(0 0 0 0.5) , rgb(0 0 0 0.6) ),  url(../images/bg/bg-image-2.jpg);
+} */
 
 .bg_image--3 {
   background-image: url(../images/bg/bg-image-3.jpg);
@@ -10248,8 +10247,9 @@ textarea:-ms-input-placeholder {
 /*--------------------------
     CountDown Style 1
 ----------------------------*/
+
 .countdown-inner-content h2 {
-  color: #292323;
+  color:#333;
   font-size: 50px;
   text-transform: uppercase;
   line-height: 55px;
@@ -10260,7 +10260,7 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (max-width: 767px) {
   .countdown-inner-content h2 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 47px;
   }
   .countdown-inner-content h2 br {
@@ -10268,102 +10268,6 @@ textarea:-ms-input-placeholder {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .countbox {
-    text-align: left;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .countbox {
-    text-align: left;
-  }
-}
-
-.countbox .ht-count {
-  display: inline-block;
-  position: relative;
-  margin: 0 5px;
-}
-
-@media only screen and (max-width: 767px) {
-  .countbox .ht-count {
-    margin: 0 5px;
-    margin-bottom: 15px;
-  }
-}
-
-.countbox .ht-count:last-child::before {
-  display: none;
-}
-
-.countdown-style-1 .ht-count {
-  color: #fff;
-  width: 125px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .countdown-style-1 .ht-count {
-    width: 125px;
-  }
-}
-
-.countdown-style-1 .ht-count .count-inner {
-  height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.countdown-style-1 .ht-count .count-inner .time-count {
-  height: 122px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  font-size: 50px;
-  font-weight: 500;
-  position: relative;
-  z-index: 1;
-  background: #fff;
-  color: #9390a0;
-  -webkit-box-shadow: 0 0 52px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 52px rgba(0, 0, 0, 0.1);
-}
-
-.countdown-style-1 .ht-count .count-inner p {
-  margin: 0;
-  height: 50px;
-  line-height: 50px;
-  font-size: 24px;
-  font-weight: 500;
-  background: #fff;
-  color: #1c1c1c;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 3px;
-  margin-top: 5px;
-  text-align: center;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .countdown-area {
@@ -12237,11 +12141,11 @@ Service Area
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-bottom: 1px solid #ffb9b9;
+  border-bottom: 1px solid  #E3056C;
 }
 
 .onsale-tab li a {
-  color: #c4c4c4;
+  color: #ada3a8;
   font-size: 24px;
   font-weight: 500;
   border-color: transparent !important;
@@ -12261,7 +12165,7 @@ Service Area
   content: "";
   border-top: 10px solid transparent;
   bottom: 0;
-  border-bottom: 10px solid #ff5151;
+  border-bottom: 10px solid #E3056C;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
   left: 50%;
@@ -12275,7 +12179,7 @@ Service Area
 }
 
 .onsale-tab li a.active {
-  color: #ff5151 !important;
+  color: #E3056C !important;
   border-color: transparent !important;
   background-color: transparent !important;
 }
