@@ -12026,9 +12026,9 @@ Service Area
   transition: 0.3s;
 }
 
-.product .content h2 a:hover {
+/* .product .content h2 a:hover {
   color:#E3056C;
-}
+} */
 
 .product .content span.prize {
   color:#E3056C;
@@ -14460,8 +14460,8 @@ Slider Animation
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 20%;
           flex: 0 0 20%;
-  max-width: 20%;
-  padding: 0 15px;
+  max-width: 35%;
+  padding: 0 40px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14496,10 +14496,12 @@ Slider Animation
 
 .footer-widget .title {
   margin-bottom: 0;
+  color:  #081108f6;
 }
 
 .footer-widget .inner {
   margin-top: 25px;
+  color:  #081108;
 }
 
 .footer-widget .inner p {
@@ -14539,15 +14541,15 @@ Slider Animation
 }
 
 .footer-widget .inner .ft-link li a {
-  color: #373737;
-  font-size: 14px;
+  color: #E3056C;
+  font-size: 15px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 .footer-widget .inner .ft-link li a:hover {
-  color: #ff5151;
+  color: #252629;
 }
 
 .footer-widget .inner .ft-link li + li {
@@ -14558,8 +14560,8 @@ Slider Animation
     Footer Middle 
 ==========================*/
 .footer-middle {
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #669c69ad;
+  border-bottom: 1px solid #669c69ad;
 }
 
 .footer-middle .tags-list {
@@ -14607,8 +14609,8 @@ Slider Animation
 
 .footer-middle .tags-list .tags a {
   display: inline-block;
-  color: #373737;
-  font-weight: 300;
+  color: #E3056C;
+  font-weight: 400;
   font-style: italic;
   font-size: 14px;
   position: relative;
@@ -14619,7 +14621,7 @@ Slider Animation
 }
 
 .footer-middle .tags-list .tags a:hover {
-  color: #ff5151;
+  color: #252629;
 }
 
 .footer-middle .tags-list .tags a + a::before {
@@ -14632,7 +14634,7 @@ Slider Animation
     Copyright Area
 ==========================*/
 .copyright-inner p {
-  color: #6d6d6d;
+  color:#333;
   font-weight: 400;
 }
 
