@@ -48,7 +48,7 @@
 
 <body>
 
-    <!-- Start Header --> 
+    <!-- Start Header NEED WORK --> 
 <header class="header-area haeder-default header--transparent black-logo-version ptb_lg--40 ptb_md--40 ptb_sm--30" style="background-color:white ; box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);">
         <div class="header-wrapper container">
             <div class="row justify-content-center pt-3">
@@ -245,7 +245,7 @@
                         <p style="color: #333;"><b>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut!</b></p>
                             
                             <div class="shop-now-btn">
-                                <button type="button">Shop Now <i class="fa fa-arrow-right"></i></button>
+                                <button id="shpbtn" type="button">Shop Now <i class="fa fa-arrow-right"></i></button>
                             </div>
                         </div>
                      </div>
@@ -302,13 +302,13 @@
 
     <div class="main-wrapper">
         <!-- Start Banner Area -->
-        <div class="banner-area mtb--100 mx-auto">
+        <div class="banner-area mtb--100 ">
             <div class="row row--0">
                 <!-- Start Single Banner -->
                 <div class="col-lg-4 col-md-6 col-12 mt_sm--30">
                     <div class="banner">
                         <div class="thumbnail">
-                            <img src="assets/images/banner/banner-01.jpg" alt="Banner Images">
+                            <img src="assets/images/banner/banner-01.png" class="img-fluid mx-auto pb-4" alt="Banner Images">
                         </div>
                         <div class="content">
                             <h1 class="theme-color mb--0">30%</h1>
@@ -322,11 +322,11 @@
                 <div class="col-lg-4 col-md-6 col-12 mt_sm--30">
                     <div class="banner">
                         <div class="thumbnail">
-                            <img src="assets/images/banner/banner-02.jpg" alt="Banner Images">
+                            <img src="assets/images/banner/banner-02.png" class="img-fluid mx-auto pb-4" alt="Banner Images">
                         </div>
                         <div class="content">
                             <h1 class="theme-color mb--0">New</h1>
-                            <h4 style="color: #333;">Arivals Product</h4>
+                            <h4 style="color: #333;">Arrivals Product</h4>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
                 <div class="col-lg-4 col-md-6 col-12 mt_md--30 mt_sm--30">
                     <div class="banner">
                         <div class="thumbnail">
-                            <img src="assets/images/banner/banner-03.jpg" alt="Banner Images">
+                            <img src="assets/images/banner/banner-03.jpg" class="img-fluid mx-auto pb-4" alt="Banner Images">
                         </div>
                         <div class="content">
                             <h1 class="theme-color mb--0">Hot</h1>
@@ -356,8 +356,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center" style="position: rlative; border-bottom: #333;">
-                            <!-- <h2 class="title" style="color:#E3056C;">Featured products</h2>-->
-                           <img class="mb--30"  src="assets/images/logo/text3.png" alt="Shape Images">
+                           <img class="mb--30 img-fluid mx-auto pb-4"  src="assets/images/logo/text3.png" alt="Shape Images">
                         </div>
                     </div>
                 </div>
@@ -369,7 +368,7 @@
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-24.png" alt="Product Images" >
+                                        <img src="assets/images/product/product-24.png" class="img-fluid" alt="Product Images" >
                                     </a>
                                 </div>
                                 <div class="product-hover-action">
@@ -395,7 +394,7 @@
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-36.png" alt="Product Images">
+                                        <img src="assets/images/product/product-36.png" class="img-fluid" alt="Product Images">
                                     </a>
                                 </div>
                                 <div class="product-hover-action">
@@ -421,7 +420,7 @@
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-37.png" alt="Product Images"  >
+                                        <img src="assets/images/product/product-37.png" class="img-fluid" alt="Product Images"  >
                                     </a>
                                 </div>
                                 <div class="product-hover-action">
@@ -447,7 +446,7 @@
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="product-details.html">
-                                        <img src="assets/images/product/product-39.png" alt="Product Images">
+                                        <img src="assets/images/product/product-39.png" class="img-fluid" alt="Product Images">
                                     </a>
                                 </div>
                                 <div class="product-hover-action">
@@ -472,7 +471,7 @@
         </div>
         <!-- End Product Area -->
 
-        <!-- Start Countdown Area STIL NEEDS TO BE DONE-->
+        <!-- Start Countdown Area STIL NEEDS TO BE DONE -->
         <div class="countdown-area bg_image bg_image--2 ptb--100 ptb_md--80 ptb_sm--80" style="background-image:   url(image/bg-image-2.jpg);">
             <div class="container">
                 <div class="row">
@@ -484,10 +483,10 @@
                     <div class="col-lg-8 col-xl-6 col-md-12 col-12 order-1 order-lg-2">
                         
 
-                            <div class="countdown-inner-content pt--30 mt--50 pt_md--0 pt_sm--0">
+                            <div class="countdown-inner-content p--30 mt--50 pt_md--0 pt_sm--0  justify-content-center">
                                 <h2 class="">Explore<br>Every part of this<br>Products</h2>
                                 <!-- <img src="/assets/images/logo/text4.png" alt=""> -->
-                                <div class="shop-now-btn text-center pt--100 justify-content-start">
+                                <div class="shop-now-btn text-center pt--100 ">
                                     <button class="button-theme" type="button">Shop Now <i class="fa fa-arrow-right"></i></button>
                                 </div>
                             </div>
@@ -532,7 +531,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-01.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-01.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -558,7 +557,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-02.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-02.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -584,7 +583,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-03.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-03.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -610,7 +609,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-04.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-04.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -636,7 +635,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-05.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-05.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -662,7 +661,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-06.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-06.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -688,7 +687,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-07.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-07.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -714,7 +713,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-08.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-08.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -744,7 +743,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-09.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-09.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -770,7 +769,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-10.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-10.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -796,7 +795,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-11.jpg" alt="Product Images">
+                                                        <img src="assets/images/product/product-11.jpg" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -822,7 +821,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-12.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-12.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -848,7 +847,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-13.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-13.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -874,7 +873,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-14.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-14.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -905,7 +904,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-32.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-32.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -931,7 +930,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-33.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-33.png" class="img-fluid" alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -957,7 +956,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-34.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-34.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -983,7 +982,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-35.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-35.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -1009,7 +1008,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-28.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-28.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -1035,7 +1034,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-29.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-29.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -1061,7 +1060,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-30.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-30.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -1087,7 +1086,7 @@
                                             <div class="inner">
                                                 <div class="thumbnail">
                                                     <a href="product-details.html">
-                                                        <img src="assets/images/product/product-31.png" alt="Product Images">
+                                                        <img src="assets/images/product/product-31.png" class="img-fluid"alt="Product Images">
                                                     </a>
                                                 </div>
                                                 <div class="product-hover-action">
@@ -1124,16 +1123,16 @@
                         <div class="brand-wrapper bg-color ptb--50" data-bg-color="#FFDFEB" style="border: 1px solid #E3056C; border-radius: 15px;">
                             <div class="brand-list plr--60 flex-wrap flex-lg-nowrap d-flex justify-content-between">
                                 <a href="#">
-                                    <img style="height: 25vh;" src="assets/images/brand/brand-01.png" alt="Brand">
+                                    <img style="height: 25vh;" src="assets/images/brand/brand-01.png" class="img-fluid mx-auto pb-4" alt="Brand">
                                 </a>
                                 <a href="#">
-                                    <img style="height: 20vh;" src="assets/images/brand/brand-02.png" alt="Brand">
+                                    <img style="height: 20vh;" src="assets/images/brand/brand-02.png" class="img-fluid mx-auto pb-4" alt="Brand">
                                 </a>
                                 <a href="#">
-                                    <img style="height: 23vh;" src="assets/images/brand/brand-03.png" alt="Brand">
+                                    <img style="height: 23vh;" src="assets/images/brand/brand-03.png" class="img-fluid mx-auto pb-4" alt="Brand">
                                 </a>
                                 <a href="#">
-                                    <img style="height: 23vh;" src="assets/images/brand/brand-04.png" alt="Brand">
+                                    <img style="height: 23vh;" src="assets/images/brand/brand-04.png" class="img-fluid mx-auto pb-4" alt="Brand">
                                 </a>
                             </div>
                         </div>
@@ -1154,27 +1153,27 @@
                     <div class="product-details-left">
                         <div class="product-details-images slider-navigation-2">
                             <a href="#">
-                                <img class="w-100" src="assets/images/product/product-01.jpg" alt="product image">
+                                <img class="w-100" src="assets/images/product/product-01.png" class="img-fluid mx-auto pb-4" alt="product image">
                             </a>
                             <a href="#">
-                                <img class="w-100" src="assets/images/product/product-02.jpg" alt="product image">
+                                <img class="w-100" src="assets/images/product/product-02.png" class="img-fluid mx-auto pb-4" alt="product image">
                             </a>
                             <a href="#">
-                                <img class="w-100" src="assets/images/product/product-03.jpg" alt="product image">
+                                <img class="w-100" src="assets/images/product/product-03.png" class="img-fluid mx-auto pb-4" alt="product image">
                             </a>
                             <a href="#">
-                                <img class="w-100" src="assets/images/product/product-04.jpg" alt="product image">
+                                <img class="w-100" src="assets/images/product/product-04.png" class="img-fluid mx-auto pb-4" alt="product image">
                             </a>
                             <a href="#">
-                                <img class="w-100" src="assets/images/product/product-05.jpg" alt="product image">
+                                <img class="w-100" src="assets/images/product/product-05.png" class="img-fluid mx-auto pb-4" alt="product image">
                             </a>
                         </div>
                         <div class="product-details-thumbs slider-navigation-2">
-                            <img src="assets/images/product/product-01.jpg" alt="product image thumb">
-                            <img src="assets/images/product/product-02.jpg" alt="product image thumb">
-                            <img src="assets/images/product/product-03.jpg" alt="product image thumb">
-                            <img src="assets/images/product/product-04.jpg" alt="product image thumb">
-                            <img src="assets/images/product/product-05.jpg" alt="product image thumb">
+                            <img src="assets/images/product/product-01.jpg" class="img-fluid mx-auto pb-4" alt="product image thumb">
+                            <img src="assets/images/product/product-02.jpg" class="img-fluid mx-auto pb-4" alt="product image thumb">
+                            <img src="assets/images/product/product-03.jpg" class="img-fluid mx-auto pb-4" alt="product image thumb">
+                            <img src="assets/images/product/product-04.jpg" class="img-fluid mx-auto pb-4" alt="product image thumb">
+                            <img src="assets/images/product/product-05.jpg" class="img-fluid mx-auto pb-4" alt="product image thumb">
                         </div>
                     </div>
                     <!--// Product Details Left -->
@@ -1282,7 +1281,7 @@
                     <div class="footer-widget">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/images/logo/logo1.png" alt="Logo">
+                                <img src="assets/images/logo/logo1.png" class="img-fluid mx-auto pb-4" alt="Logo">
                             </a>
                         </div>
                         <div class="inner">

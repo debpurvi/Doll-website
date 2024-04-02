@@ -4011,9 +4011,9 @@ Copyright (c) 2015 Daniel Eden
   background-image:   linear-gradient( rgb(0 0 0 0.5) , rgb(0 0 0 0.6) ),  url(../images/bg/bg-image-2.jpg);
 } */
 
-.bg_image--3 {
+/* .bg_image--3 {
   background-image: url(../images/bg/bg-image-3.jpg);
-}
+} */
 
 .bg_image--4 {
   /* background-image: url(../images/bg/bg-image-4.jpg); */
@@ -10092,7 +10092,7 @@ textarea:-ms-input-placeholder {
 .shop-now-btn button {
   height: 46px;
   padding: 0 40px;
-  border: 1px solid #ff0080;;
+  border: 1px solid #E3056C;
   border-radius: 500px;
   text-transform: uppercase;
   font-weight: 500;
@@ -10106,7 +10106,7 @@ textarea:-ms-input-placeholder {
 
 .shop-now-btn button:hover {
   color: #fff;
-  border: 1px solid #ff5151;
+  border: 1px solid #E3056C;/* border: 1px solid #ff5151; */
   background: #E3056C;
 }
 
@@ -10116,7 +10116,7 @@ textarea:-ms-input-placeholder {
 
 .shop-now-btn button.button-theme {
   color: #fff;
-  border: 1px solid #ff5151;
+  /* border: 1px solid #ff5151; */border: 1px solid #E3056C;
   background: #E3056C;
 }
 
@@ -14023,6 +14023,7 @@ Slider Animation
 ========================*/
 .banner {
   position: relative;
+ 
 }
 
 .banner .content {
