@@ -4193,7 +4193,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .font--18 {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .font--19 {
@@ -10236,13 +10236,14 @@ textarea:-ms-input-placeholder {
 }
 
 .section-title--3 .title {
-  font-size: 36px;
+  padding: 10px;
+  font-size: 26px;
   font-weight: 700;
-  letter-spacing: 4px;
+  /* letter-spacing: 1px; */
   margin-bottom: 0;
   text-transform: uppercase;
-  font-weight: 500;
-  margin-top: -10px;
+  /* font-weight: 500; */
+  margin-top: -1px;
 }
 
 /*--------------------------
@@ -11688,7 +11689,7 @@ Service Area
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background: #ff5151;
+  background: #E3056C;
   -webkit-transition: all 1s cubic-bezier(0, 0, 0.2, 1);
   -o-transition: all 1s cubic-bezier(0, 0, 0.2, 1);
   transition: all 1s cubic-bezier(0, 0, 0.2, 1);
@@ -11751,12 +11752,12 @@ Service Area
 }
 
 .team .content p {
-  color: #252323;
-  font-size: 14px;
+  color: #E3056C;
+  font-size: 17px;
 }
 
 .team .content .team-social a {
-  color: #252323;
+  color:#D82E86;
   font-size: 22px;
   display: inline-block;
   margin: 0 10px;
@@ -11766,7 +11767,7 @@ Service Area
 }
 
 .team .content .team-social a:hover {
-  color: #ff5151;
+  color: #E3056C;
 }
 
 /*------------------------
@@ -12468,7 +12469,7 @@ Service Area
 .product-details-socialshare ul li a:hover,
 .product-details-color ul li a:hover,
 .product-details-size ul li a:hover {
-  color: #ff5151;
+  color: #E3056C;
 }
 
 .product-details-socialshare ul li + li {
