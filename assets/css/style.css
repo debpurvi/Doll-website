@@ -644,13 +644,14 @@ input,
 button,
 select,
 textarea {
-  background: transparent;
-  border: 1px solid #d4d4d4;
+  /* background: transparent; */
+  border: 1px solid #D82E86;
   -webkit-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
   color: #000000;
 }
+
 
 input:focus, .contact__form--1 textarea:focus, input:active, .contact__form--1 textarea:active,
 button:focus,
@@ -660,7 +661,7 @@ select:active,
 textarea:focus,
 textarea:active {
   outline: none;
-  border-color: #ff5151;
+  border-color:#D82E86;
 }
 
 
@@ -684,7 +685,7 @@ select {
 Common Css 
 =======================*/
 .cart-flyout .cart-flyout-inner .btn-close-cart i:hover, .cart-flyout .cart-flyout-inner .widget_shopping_cart_content .product_list_widget li .content h6 a:hover, .cart-flyout .cart-flyout-inner .widget_shopping_cart_content .product_list_widget li .content .remove-btn:hover {
-  color: #ff5151;
+  color: #D82E86;
 }
 
 .black-logo-version .mainmenu__nav .primary-menu li a, .black-logo-version .header-icon a {
@@ -9775,7 +9776,7 @@ textarea:-ms-input-placeholder {
   width: 40px;
   display: inline-block;
   height: 40px;
-  border: 1px solid #575656;
+  /* border: 1px solid #575656; */
   line-height: 40px;
   border-radius: 100%;
   text-align: center;
@@ -10648,9 +10649,8 @@ textarea:-ms-input-placeholder {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
-  background-color: #ff5151;
-  border-color: #ff5151;
-  width: 140px;
+  background-color: #E3056C;
+  border-color:  #E3056C;
 }
 
 /*-- Discount Coupon --*/
@@ -11400,13 +11400,14 @@ textarea:-ms-input-placeholder {
 }
 
 .adress__style--1 .contact-address li span.address-icon {
-  color: #f53e6a;
-  font-size: 30px;
+  color: #D82E86;
+  font-size: 35px;
+  padding-left: 25px;
 }
 
 .adress__style--1 .contact-address li span.address-text {
-  padding-left: 15px;
-  font-size: 16px;
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 .adress__style--1 .contact-address li:not(:first-child) {
@@ -14242,18 +14243,21 @@ Slider Animation
 ======================*/
 .comment-form-wrapper .contact-form input, .comment-form-wrapper .contact-form .contact__form--1 textarea, .contact__form--1 .comment-form-wrapper .contact-form textarea {
   height: 50px;
-  border: 1px solid #eee;
+  border: 2px solid #D82E86;
 }
+
+
+ 
 
 .comment-form-wrapper .contact-form textarea {
   color: #777;
-  border-color: #eee;
+  /* border-color: #cde1a3; */
   background-color: #fff;
   height: 150px;
   width: 100%;
   outline: none;
-  border: 1px solid #eee;
-  border-radius: 0;
+  border: 2px solid #D82E86;
+  border-radius: 50px;
   padding: 12px 20px 3px;
   max-width: 100%;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -14315,8 +14319,8 @@ Slider Animation
 }
 
 .sidebar_widget .sidebar_search form input, .sidebar_widget .sidebar_search form .contact__form--1 textarea, .contact__form--1 .sidebar_widget .sidebar_search form textarea {
-  background: #f1f1f1 none repeat scroll 0 0;
-  border: medium none;
+  background: #D82E86 none repeat scroll 0 0;
+  /* border: 2px solid  ; */
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #8e8d8d;
