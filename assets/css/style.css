@@ -11689,7 +11689,7 @@ Service Area
   width: 72px;
   height: 72px;
   border-radius: 50%;
-  background: #E3056C;
+  background:#afca74;
   -webkit-transition: all 1s cubic-bezier(0, 0, 0.2, 1);
   -o-transition: all 1s cubic-bezier(0, 0, 0.2, 1);
   transition: all 1s cubic-bezier(0, 0, 0.2, 1);
@@ -11757,7 +11757,7 @@ Service Area
 }
 
 .team .content .team-social a {
-  color:#D82E86;
+  color:#afca74;
   font-size: 22px;
   display: inline-block;
   margin: 0 10px;
