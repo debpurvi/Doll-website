@@ -9610,13 +9610,14 @@ textarea:-ms-input-placeholder {
   -webkit-transition: all .25s ease-out;
   -o-transition: all .25s ease-out;
   transition: all .25s ease-out;
-  color: #fff;
-  background-color: #2f2f2f;
+  color: #E3056C;
+  background-color: #BACC93;
   font-weight: 700;
 }
 
 .cart-flyout .cart-flyout-inner .cart__btn a:hover {
-  background-color: #ff5151;
+  background-color: #E3056C;
+  color: #fff;
 }
 
 /*===========================       
@@ -10118,8 +10119,8 @@ textarea:-ms-input-placeholder {
 
 .shop-now-btn button.button-theme {
   color: #fff;
-  /* border: 1px solid #ff5151; */border: 1px solid #E3056C;
-  background: #E3056C;
+  border: 1px solid #E3056C;
+  background:#E3056C;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

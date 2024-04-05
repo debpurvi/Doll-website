@@ -44,28 +44,39 @@
     #contact-tab:hover{
         color:#E3056C;
     }
+    .shop-now-btn button {
+        border: 1px solid #E3056C;
+        color:#E3056C;
+        background: transparent;
+}
+
+    .shop-now-btn button:hover {
+        color: #fff;
+        border: 1px solid #E3056C;
+        background: #E3056C;
+}
 </style>
 
 <body>
 
 
 <!-- Start Header -->
-<header class="header-area haeder-default  black-logo-version ptb_lg--40 ptb_md--40 ptb_sm--30">
+<header class="header-area haeder-default ptb_lg--40 ptb_md--40 ptb_sm--30">
     <div class="header-wrapper container">
         <div class="row align-items-center">
             <!-- Start Header Left -->
             <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="assets/images/logo/logo1.png" alt="Draven logo">
+                        <img class="img-fluid mx-auto" src="assets/images/logo/logo1.png" alt=" logo">
                     </a>
                 </div>
             </div>
             <!-- Start Header Center -->
             <div class="col-xl-9 d-none d-xl-block">
-                <nav class="mainmenu__nav">
+                <nav class="mainmenu__nav ">
                     <!-- Start Mainmanu Nav -->
-                    <ul class="primary-menu megamenu-wrapper">
+                    <ul class="primary-menu megamenu-wrapper justify-content-center ">
                         <li class="lavel-1"><a href="index.html">Home</a>
                             <ul class="dropdown__menu">
                                 <li><a href="index.html"><span>Home 01</span></a></li>
@@ -88,7 +99,7 @@
                                 <li><a href="blog-details.html"><span>Blog Details</span></a></li>
                             </ul>
                         </li>
-                        <li class="lavel-1"><a href="#">Pages</a>
+                        <li class="lavel-1"><a href="#" style="color: #000;">Pages</a>
                             <ul class="dropdown__menu">
                                 <li><a href="cart.html"><span>Cart</span></a></li>
                                 <li><a href="checkout.html"><span>Checkout</span></a></li>
@@ -109,7 +120,7 @@
                 <div class="header-icon d-flex justify-content-end cart text-right">
                     <a class="cart-trigger" href="#">
                         <i class="fa fa-shopping-cart" style="color: #D82E86;"></i>
-                            <span class="cart-count" style="color: red;">03</span>
+                        <span class="cart-count" style="color: red;">03</span>
                     </a>
                     <a class="hamburger-trigger d-block d-xl-none pl--15" href="#">
                         <i class="fa fa-bars"></i>
@@ -129,45 +140,45 @@
                 <i class="fa fa-times"></i>
             </a>
             <div class="cart-flyout__content">
-                <div class="cart-flyout__heading">Shopping Cart</div>
+                <div class="cart-flyout__heading" style="color: #E3056C;">Shopping Cart</div>
                 <div class="widget_shopping_cart_content">
                     <ul class="product_list_widget">
                         <li>
                             <div class="thumb">
-                                <img src="assets/images/product/sm-product-01.jpg" alt="product">
+                                <img src="assets/images/product/product-07.png" alt="product">
                             </div>
                             <div class="content">
-                                <h6><a href="single-product.html">Boys light blue jacket</a></h6>
-                                <div class="quntity">1 × $35.99</div>
+                                <h6><a href="single-product.html">demo product</a></h6>
+                                <div class="quntity" style="color: #E3056C;">1 × $35.99</div>
                                 <button class="remove-btn">×</button>
                             </div>
                         </li>
 
                         <li>
                             <div class="thumb">
-                                <img src="assets/images/product/sm-product-02.jpg" alt="product">
+                                <img src="assets/images/product/product-14.png" alt="product">
                             </div>
                             <div class="content">
-                                <h6><a href="single-product.html">Boys light blue jacket</a></h6>
-                                <div class="quntity">1 × $35.99</div>
-                                <button class="remove-btn">×</button>
+                                <h6><a href="single-product.html">Demo product</a></h6>
+                                <div class="quntity" style="color: #E3056C;">1 × $35.99</div>
+                                <button class="remove-btn" >×</button>
                             </div>
                         </li>
 
                         <li>
                             <div class="thumb">
-                                <img src="assets/images/product/sm-product-03.jpg" alt="product">
+                                <img src="assets/images/product/product-15.png" alt="product">
                             </div>
                             <div class="content">
-                                <h6><a href="single-product.html">Boys light blue jacket</a></h6>
-                                <div class="quntity">1 × $35.99</div>
-                                <button class="remove-btn">×</button>
+                                <h6><a href="single-product.html">Demo product</a></h6>
+                                <div class="quntity" style="color: #E3056C;">1 × $35.99</div>
+                                <button class="remove-btn" >×</button>
                             </div>
                         </li>
 
                     </ul>
                 </div>
-                <p class="minicart__total">Subtotal: <span class="price">164.97</span></p>
+                <p class="minicart__total">Subtotal: <span class="price" style="color: #E3056C;">164.97</span></p>
                 <div class="cart__btn">
                     <a href="cart.html">View cart</a>
                     <a href="checkout.html">Checkout</a>
@@ -241,7 +252,7 @@
                         <p style="color: #333;"><b>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut!</b></p>
                             
                             <div class="shop-now-btn">
-                                <button id="shpbtn" type="button">Shop Now <i class="fa fa-arrow-right"></i></button>
+                                <button id="shpbtn" type="button"  >Shop Now <i class="fa fa-arrow-right"></i></button>
                             </div>
                         </div>
                      </div>
