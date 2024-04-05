@@ -31,6 +31,11 @@
     <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
 
 </head>
+<style>
+    ul li:hover{
+        color: #BACC93;
+    }
+</style>
 
 <body>
 
@@ -105,6 +110,7 @@
         </div>
     </header>
     <!-- Start Header -->
+
     <!-- Start Search Flyover -->
     <div class="search-flyoveray"></div>
     <div class="cart-flyout">
@@ -158,8 +164,10 @@
                 </div>
             </div>
         </div>
+                        
     </div>
-    <!-- End Search Flyover -->
+    <!-- End Search Flyover -->  
+
     <!-- Start Hamburger -->
     <div class="hamburger-area">
         <div class="btn-close-search">
@@ -206,15 +214,20 @@
         <!-- End Main Menu -->
     </div>
     <!-- End Hamburger -->
+
     <!-- Start Breadumb Area -->
-    <div class="breadcumb-area ptb--150 ptb_md--150 ptb_sm--150  bg_image" style="background-color:#ffd7e5 ;">
+    <div class="breadcumb-area ptb--120 ptb_md--120 ptb_sm--120  bg_image d-flex flex-column " style="">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="inner text-center">
-                        <h4><img src="assets/images/logo/text8.png"  class="img-fluid font--40 mb--5" alt="logo"></h4>
-                        <!-- <img src="assets/images/bg/bg-demo-pink.jpg" alt=""> -->
+                  <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <h4><img src="assets/images/logo/text-1712298494765.png"  class="img-fluid mt--50" alt="logo"></h4>
                     </div>
+                    <div class="col-lg-6">
+                        <!-- <img src="assets/images/bg/shop-removebg-preview.png" class="img-fluid mt--0 top center" alt="shop" > -->
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -232,11 +245,11 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div class="archive-shop-inner text-center text-sm-left">
-                                        <p class="bk_pra">Showing 1–8 of 10 results</p>
+                                        <p class="bk_pra" style="color: #D82E86;">Showing 1–8 of 10 results</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-                                    <div class="archive-shop-inner text-center text-sm-right mt_mobile--20">
+                                    <div class="archive-shop-inner text-center text-sm-right mt_mobile--20" style="color: #D82E86;">
                                         <select>
                                             <option>Sort by popularity</option>
                                             <option>Sort by average rating</option>
@@ -564,11 +577,11 @@
                                 <!-- End Single Product -->
 
                                 <!-- Start Pagenation Area -->
-                                <div class="col-lg-12">
-                                    <ul class="pagination_style">
+                                <div class="col-lg-12" >
+                                    <ul class="pagination_style" >
                                         <li><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
-                                        <li><a class="active" href="#">3</a></li>
+                                        <li><a class="active" href="#" >3</a></li>
                                         <li><a href="#">4</a></li>
                                         <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
                                     </ul>
@@ -585,7 +598,7 @@
                             <div class="shop-sidebar-wrapper">
                                 <!-- Start Single Widget -->
                                 <div class="shop-sidebar search">
-                                    <h5 class="widget-title">Search</h5>
+                                    <h5 class="widget-title" style="color: #E3056C;">Search</h5>
                                     <form class="inner" action="#">
                                         <div class="search-box">
                                             <input type="text" placeholder="Enter search keyword…">
@@ -597,7 +610,7 @@
 
                                 <!-- Start Single Widget -->
                                 <div class="shop-sidebar related-product-inner mt--50">
-                                    <h5 class="widget-title">Top rated products</h5>
+                                    <h5 class="widget-title" style="color: #E3056C;">Top rated products</h5>
                                     <ul class="related-product">
                                         <!-- Start Single Product -->
                                         <li>
@@ -616,8 +629,8 @@
                                                         <li><i class="fa fa-star"></i></li>
                                                         <li><i class="fa fa-star"></i></li>
                                                     </ul>
-                                                    <div class="price"><span>$58.00</span> <span
-                                                            class="new-price">$70.00</span></div>
+                                                    <div class="price"><span style="text-decoration: line-through;">$58.00</span> <span
+                                                            class="new-price" style="color: #D82E86;">$70.00</span></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -633,8 +646,8 @@
                                                 </div>
                                                 <div class="info">
                                                     <h5 class="heading heading-h5"><a href="single-product.html">Sample Bundle Product</a></h5>
-                                                    <div class="price"><span>$89.00</span> <span
-                                                            class="new-price">$58.00</span></div>
+                                                    <div class="price"><span style="text-decoration: line-through;">$89.00</span> <span
+                                                            class="new-price" style="color: #D82E86;">$58.00</span></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -650,8 +663,8 @@
                                                 </div>
                                                 <div class="info">
                                                     <h5 class="heading heading-h5"><a href="single-product.html">Three-Piece Check</a></h5>
-                                                    <div class="price"><span>$89.00</span> <span
-                                                            class="new-price">$58.00</span></div>
+                                                    <div class="price"><span style="text-decoration: line-through;">$89.00</span> <span
+                                                            class="new-price" style="color: #D82E86;">$58.00</span></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -674,8 +687,8 @@
                                                         <li><i class="fa fa-star"></i></li>
                                                         <li><i class="fa fa-star"></i></li>
                                                     </ul>
-                                                    <div class="price"><span>$89.00</span> <span
-                                                            class="new-price">$58.00</span></div>
+                                                    <div class="price"><span style="text-decoration: line-through;">$89.00</span> <span
+                                                            class="new-price" style="color: #D82E86;">$58.00</span></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -698,8 +711,8 @@
                                                         <li><i class="fa fa-star"></i></li>
                                                         <li><i class="fa fa-star"></i></li>
                                                     </ul>
-                                                    <div class="price"><span>$89.00</span> <span
-                                                            class="new-price">$58.00</span></div>
+                                                    <div class="price"><span style="text-decoration: line-through;">$89.00</span> <span
+                                                            class="new-price" style="color: #D82E86;">$58.00</span></div>
                                                 </div>
                                             </div>
                                         </li>
@@ -710,7 +723,7 @@
 
                                 <!-- Start Single Widget -->
                                 <div class="shop-sidebar related-product-inner mt--50">
-                                    <h5 class="widget-title">Filter by price</h5>
+                                    <h5 class="widget-title" style="color: #E3056C;">Filter by price</h5>
 
                                     <div class="content-shopby">
                                         <div class="price_filter s-filter clear">
@@ -721,7 +734,7 @@
                                                         <div class="price--output">
                                                             <span>Price :</span><input type="text" id="amount" readonly>
                                                         </div>
-                                                        <div class="price--filter">
+                                                        <div class="price--filter" style="background-color: #D82E86;">
                                                             <a href="#">Filter</a>
                                                         </div>
                                                     </div>
@@ -733,27 +746,10 @@
                                 <!-- End Single Widget -->
 
 
-                                <!-- Start Single Widget -->
-                                <div class="shop-sidebar tag mt--50">
-                                    <h5 class="widget-title">Tags</h5>
-                                    <div class="inner">
-                                        <ul class="tagcloud">
-                                            <li><a href="#">architecture</a></li>
-                                            <li><a href="#">business</a></li>
-                                            <li><a href="#">format</a></li>
-                                            <li><a href="#">corporate</a></li>
-                                            <li><a href="#">themplate</a></li>
-                                            <li><a href="#">Html5</a></li>
-                                            <li><a href="#">Bootstrap4</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- End Single Widget -->
-
-                                <!-- End Single Widget -->
+                                
                                 <!-- Start Single Widget -->
                                 <div class="shop-sidebar nwinstagram mt--50">
-                                    <h5 class="widget-title">Instagram</h5>
+                                    <h5 class="widget-title" style="color: #E3056C;">Instagram</h5>
 
                                     <div class="instagram-grid-wrap instagram-grid-5 inner">
                                         <!-- Start Single Instagram -->

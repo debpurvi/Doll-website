@@ -10638,7 +10638,7 @@ textarea:-ms-input-placeholder {
   width: 100%;
   border-radius: 50px;
   height: 36px;
-  border: 1px solid #999999;
+  border: 1px solid ;
   line-height: 24px;
   padding: 5px 20px;
   color: #000000;
@@ -11629,7 +11629,7 @@ textarea:-ms-input-placeholder {
 
 .pagination_style li a {
   background-color: #f6f6f6;
-  color: #3f3f3f;
+  color: #E3056C;
   display: inline-block;
   font-size: 13px;
   font-weight: 500;
@@ -11637,10 +11637,13 @@ textarea:-ms-input-placeholder {
   line-height: 41px;
   width: 40px;
 }
-
-.pagination_style li a:hover, .pagination_style li a.active {
-  background-color: #3f3f3f;
-  color: #fff;
+.pagination_style li a.active{
+  background-color: #BACC93;
+  color: #E3056C;
+}
+.pagination_style li a:hover {
+  background-color: #E3056C;
+  color: #BACC93;
 }
 
 /*========================
@@ -11999,19 +12002,21 @@ Service Area
     Product Style 
 =================================*/
 .product {
-  border: 1px solid #f2f2f2;
-  border-radius: 5px;
+  /* border: 1px solid #f2f2f2; */
+  /* border-radius: 5px; */
 }
 
 .product .thumbnail a img {
   width: 100%;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .product .content {
   padding: 25px 20px;
-  border-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   background-color:#BACC93;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
@@ -13554,7 +13559,7 @@ Shop Sidebar
 }
 
 .shop-sidebar.search .search-box button:hover {
-  background-color: #ff5151;
+  background-color:#BACC93;
 }
 
 .shop-sidebar.search .search-box button span {
@@ -13566,11 +13571,11 @@ Shop Sidebar
   transform: translate(-50%, -50%);
   line-height: 1;
   font-size: 18px;
-  color: #ff5151;
+  color: #E3056C;
 }
 
 .shop-sidebar.search .search-box button:hover span {
-  color: #fff;
+  color:#E3056C;
 }
 
 .shop-sidebar.search.color-green .search-box button:hover {
@@ -13723,7 +13728,7 @@ Shop Sidebar
 }
 
 .price--filter a {
-  background: #ff5151 none repeat scroll 0 0;
+  background: #E3056C none repeat scroll 0 0;
   border-radius: 3px;
   color: #fff;
   display: block;
@@ -13736,11 +13741,11 @@ Shop Sidebar
 .ui-widget-content {
   background: #ededed none repeat scroll 0 0;
   border: 0 none;
-  color: #ff5151;
+  color:#E3056C;
 }
 
 .ui-slider-range.ui-widget-header.ui-corner-all {
-  background: #ff5151 none repeat scroll 0 0;
+  background: #E3056C none repeat scroll 0 0;
 }
 
 .ui-slider-horizontal {
