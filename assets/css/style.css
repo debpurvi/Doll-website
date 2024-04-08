@@ -9250,7 +9250,7 @@ textarea:-ms-input-placeholder {
   width: 100%;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
   .header-area .header-wrap {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -9276,13 +9276,21 @@ textarea:-ms-input-placeholder {
             justify-content: space-between;
   }
 }
+/* @media only screen and (max-width: 2600px) {
+  .header-area .header-wrap {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+} */
 
 .header-area .header-wrap .header-wrapper {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
   -moz-align-items: center;
-/*  align-items: center;*/
+ align-items: center;
 }
 
 .header-area .header-wrap .header-wrapper .logo img {
@@ -9432,7 +9440,7 @@ textarea:-ms-input-placeholder {
 /*  padding: 0 35px;*/
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .haeder-default .mainmenu__nav ul.primary-menu > li > a {
     font-size: 15px;
     font-weight: 400;
@@ -9637,8 +9645,8 @@ textarea:-ms-input-placeholder {
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
   width: 470px;
   padding: 70px;
-  color: #fff;
-  background-color: #2f2f2f;
+  color: #E3056C;
+  background-color: #fdfcfc;
   left: -280px;
   width: 280px;
   -webkit-transform: inherit;
@@ -9685,7 +9693,7 @@ textarea:-ms-input-placeholder {
 .hamburger-area .btn-close-search button {
   padding: 0;
   border: 0 none;
-  color: #fff;
+  color: #181717;
 }
 
 .hamburger-area .btn-close-search button:hover {
@@ -9730,14 +9738,14 @@ textarea:-ms-input-placeholder {
   padding: 10px 0;
   position: relative;
   display: block;
-  color: #fff;
+  color: #E3056C;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 .hamburger-area .hamburger-menu-main .humberger-top .hum-mainmenu ul li a:hover {
-  color: #ff5151;
+  color: #f53e6a;
 }
 
 .hamburger-area .hamburger-menu-main .humberger-bottom {
@@ -9788,7 +9796,7 @@ textarea:-ms-input-placeholder {
 }
 
 .hamburger-area .hamburger-menu-main .humberger-bottom .social-icons a:hover {
-  background: #ff5151;
+  background:#BACC93;
   border: 1px solid #ff5151;
   color: #ffffff;
 }
@@ -9806,9 +9814,9 @@ textarea:-ms-input-placeholder {
 /* ================================
     Responsive Menu 
 ==================================*/
-.menu-primary-menu-1 li a {
+/* .menu-primary-menu-1 li a {
   color: silver;
-}
+} */
 
 .menu-primary-menu-1 li.has-dropdown > a {
   position: relative;
@@ -9831,9 +9839,9 @@ textarea:-ms-input-placeholder {
   color: #ff5151;
 }
 
-.menu-primary-menu-1 li.has-dropdown > a.is-visiable::after {
+/* .menu-primary-menu-1 li.has-dropdown > a.is-visiable::after {
   content: "\f113";
-}
+} */
 
 .menu-primary-menu-1 > li > a {
   display: block;
@@ -9860,7 +9868,7 @@ textarea:-ms-input-placeholder {
 
 .menu-primary-menu-1 > li .sub-menu > li.has-label--3 .lavel--3 {
   display: none;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: #BACC93;
   padding: 5px 0;
   margin: 5px 0;
 }
@@ -9912,7 +9920,7 @@ textarea:-ms-input-placeholder {
   box-shadow: 0 10px 37px rgba(0, 0, 0, 0.07);
   position: absolute;
   list-style: none;
-  background-color: #222222;
+  background-color: #fdfcfc;
   -webkit-animation: hide-animation .5s;
   animation: hide-animation .5s;
   left: 0px;
@@ -9927,9 +9935,9 @@ textarea:-ms-input-placeholder {
   padding: 0 40px;
 }
 
-.megamenu-wrapper li.lavel-1 .dropdown__menu li a {
+/* .megamenu-wrapper li.lavel-1 .dropdown__menu li a {
   color: #222222;
-}
+} */
 
 .megamenu-wrapper li.lavel-1 .dropdown__menu li a span {
   position: relative;
@@ -9938,7 +9946,7 @@ textarea:-ms-input-placeholder {
   z-index: 1;
   font-weight: 500;
   line-height: 1.58;
-  color: #999;
+  color: #D82E86;
   font-size: 14px;
   -webkit-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
   -o-transition: width 0.6s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
@@ -9957,7 +9965,7 @@ textarea:-ms-input-placeholder {
   display: none;
   padding: 30px 0 50px;
   margin: 0;
-  background: #222222;
+  background-color: #e8c5c5;
   width: 300px;
   -webkit-animation: slide-out-to-right .3s;
   animation: slide-out-to-right .3s;
